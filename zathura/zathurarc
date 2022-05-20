@@ -1,9 +1,21 @@
-map r reload 
-map p print 
-map i recolor 
+# Default shortcuts to be matched 
+map r reload
+map p print
+map i recolor
+map <C--> zoom out
 map <C-=> zoom in
-map <C--> zoom out 
+map R rotate
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
 
+# Open document in the best-fit 
+set adjust-open "best-fit"
+
+# Zoom settings
+set font "FiraCode Nerd Font 15"
+
+# Gruvbox Theme 
 set notification-error-bg       "#282828" # bg
 set notification-error-fg       "#fb4934" # bright:red
 set notification-warning-bg     "#282828" # bg
