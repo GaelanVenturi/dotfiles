@@ -134,11 +134,6 @@ _G.packer_plugins = {
     path = "/home/gaelanv/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  ["gruvbox-flat.nvim"] = {
-    loaded = true,
-    path = "/home/gaelanv/.local/share/nvim/site/pack/packer/start/gruvbox-flat.nvim",
-    url = "https://github.com/eddyekofo94/gruvbox-flat.nvim"
-  },
   ["impatient.nvim"] = {
     loaded = true,
     path = "/home/gaelanv/.local/share/nvim/site/pack/packer/start/impatient.nvim",

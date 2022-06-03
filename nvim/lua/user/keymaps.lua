@@ -9,6 +9,7 @@ local keymap = vim.api.nvim_set_keymap
 keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+
 -- Modes
 --   normal_mode = "n",
 --   insert_mode = "i",
@@ -16,9 +17,6 @@ vim.g.maplocalleader = " "
 --   visual_block_mode = "x",
 --   term_mode = "t",
 --   command_mode = "c",
-
--- Deleting the whole work with Ctrl+Backspace
-keymap("i", "<C-BS>", "C-W", opts)
 
 -- Normal --
 -- Better window navigation
